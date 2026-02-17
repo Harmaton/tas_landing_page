@@ -39,7 +39,7 @@ export default function Home() {
         className="relative -mx-6 md:-mx-12 w-screen h-screen flex flex-col justify-between overflow-hidden"
         style={{
           backgroundImage:
-            'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/hero.png")',
+            'linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/hero.png")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed',
