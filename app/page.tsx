@@ -36,7 +36,7 @@ export default function Home() {
     <div className="min-h-screen bg-slate-50 text-gray-900" style={{ fontFamily: inter.style.fontFamily }}>
       {/* Hero Section */}
       <section
-        className="relative -mx-6 md:-mx-12 w-screen h-screen flex flex-col justify-between overflow-hidden"
+        className="relative -mx-6 md:-mx-12  h-screen flex flex-col justify-between overflow-hidden"
         style={{
           backgroundImage:
             'linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/hero.png")',
