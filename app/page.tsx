@@ -48,6 +48,12 @@ export default function Home() {
       >
         {/* Header */}
         <header className="relative z-10 flex justify-between items-center px-8 md:px-12 pt-8">
+          <img
+            src="/logo.png"
+            alt="Logo"
+            className="h-24 md:h-28 lg:h-32 w-auto"
+          />
+
         </header>
 
         {/* Hero Content */}
@@ -81,7 +87,7 @@ export default function Home() {
           </div>
 
           <p className="text-lg md:text-xl text-white/85 mb-8 max-w-2xl">
-            A digital sanctuary for contemporary African masterpieces
+            A digital sanctuary for contemporary Global masterpieces
           </p>
 
           {/* Scroll Indicator */}
@@ -109,20 +115,20 @@ export default function Home() {
 
           <div className="space-y-6">
             <blockquote className="border-l-4 border-cyan-400 pl-8 italic text-2xl text-gray-900 leading-relaxed" style={{ fontFamily: lora.style.fontFamily }}>
-              "Art is the soul of the community, the bridge between our ancestors and our children."
+              &quot;Art is the soul of the community, the bridge between our ancestors and our children.&quot;
               <footer className="not-italic text-sm text-gray-600 mt-4 font-normal">— Cultural Custodianship</footer>
             </blockquote>
 
             <p className="text-gray-600 leading-relaxed text-lg">
-              The Art Soko is more than a marketplace—it's an institutional platform dedicated to preserving and celebrating contemporary African fine art. We believe that art carries the stories, struggles, and triumphs of entire cultures.
+              The Art Soko is more than a marketplace—it&apos;s an institutional platform dedicated to preserving and celebrating contemporary Global fine art. We believe that art carries the stories, struggles, and triumphs of entire cultures.
             </p>
 
             <p className="text-gray-600 leading-relaxed text-lg">
-              Our mission transcends simple transactions. We're building a global community where collectors, artists, and cultural institutions unite in protecting Africa's artistic heritage. Every piece on our platform is authenticated, every transaction secured, and every artist honored.
+              Our mission transcends simple transactions. We&apos;re building a global community where collectors, artists, and cultural institutions unite in protecting Africa&apos;s artistic heritage. Every piece on our platform is authenticated, every transaction secured, and every artist honored.
             </p>
 
             <p className="text-gray-600 leading-relaxed text-lg">
-              This is not about ownership—it's about custodianship. It's about ensuring that future generations can witness the brilliance of African creativity.
+              This is not about ownership—it&apos;s about custodianship. It&apos;s about ensuring that future generations can witness the brilliance of Global creativity.
             </p>
 
             {/* Features Grid */}
@@ -153,7 +159,7 @@ export default function Home() {
             The Collection Awaits
           </h2>
           <p className="text-center text-white/70 mb-12 text-lg">
-            Acquisitions from the continent's most profound voices
+            Acquisitions from the continent&apos;s most profound voices
           </p>
 
           {/* Gallery Grid - CORRECT PROPORTIONS */}
@@ -277,13 +283,13 @@ export default function Home() {
               {
                 icon: '👥',
                 title: 'Global Community',
-                desc: 'Connect with artists and collectors worldwide. Join a network passionate about African art.',
+                desc: 'Connect with artists and collectors worldwide. Join a network passionate about Global art.',
                 color: 'bg-pink-100',
               },
               {
                 icon: '✨',
                 title: 'Curated Excellence',
-                desc: 'Every piece vetted by industry experts. Only the finest contemporary African art makes it through.',
+                desc: 'Every piece vetted by industry experts. Only the finest contemporary Global art makes it through.',
                 color: 'bg-yellow-100',
               },
             ].map((benefit, i) => (
@@ -315,7 +321,7 @@ export default function Home() {
             Join Our Exclusive Waitlist
           </h2>
           <p className="text-lg md:text-xl text-white/90 mb-10">
-            Be among the first to experience the future of African art trading
+            Be among the first to experience the future of Global art trading
           </p>
 
           <div className="grid grid-cols-2 gap-6 mb-12 max-w-md mx-auto">
