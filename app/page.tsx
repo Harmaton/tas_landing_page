@@ -124,7 +124,7 @@ export default function Home() {
             </p>
 
             <p className="text-gray-600 leading-relaxed text-lg">
-              Our mission transcends simple transactions. We&apos;re building a global community where collectors, artists, and cultural institutions unite in protecting Africa&apos;s artistic heritage. Every piece on our platform is authenticated, every transaction secured, and every artist honored.
+              Our mission transcends simple transactions. We&apos;re building a global community where collectors, artists, and cultural institutions unite in protecting artistic heritage. Every piece on our platform is authenticated, every transaction secured, and every artist honored.
             </p>
 
             <p className="text-gray-600 leading-relaxed text-lg">
