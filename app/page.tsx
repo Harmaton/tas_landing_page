@@ -17,7 +17,7 @@ export default function Home() {
 
   useEffect(() => {
     const timer = setInterval(() => {
-      const launchDate = new Date('2026-03-13T00:00:00').getTime();
+      const launchDate = new Date('2026-04-02T00:00:00').getTime();
       const now = new Date().getTime();
       const distance = launchDate - now;
 
@@ -49,7 +49,7 @@ export default function Home() {
         {/* Header */}
         <header className="relative z-10 flex justify-between items-center px-8 md:px-12 pt-8">
           <img
-            src="/logo.png"
+            src="/logo-beige.png"
             alt="Logo"
             className="h-24 md:h-28 lg:h-32 w-auto"
           />
